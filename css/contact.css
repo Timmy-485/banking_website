@@ -1,0 +1,64 @@
+.topImage {
+    background-image: url("../images/contact_us.jpg");
+    height: 45% !important;
+}
+
+.centerContainer {
+    grid-template-columns: 1fr 1fr;
+    margin: 0.5rem;
+    height: 40rem !important;
+}
+
+.innerCenter {
+    border: none !important;
+}
+
+
+.innerCenterLeft #name, #email{
+    /* text-align: left !important; */
+    width: 40%;
+    margin: 1rem 0;
+    height: 2rem;
+    border: none !important;
+    border-bottom: 0.1rem solid black !important;
+    
+}
+
+.innerCenterLeft #message {
+    display: block;
+    height: 15rem;
+    margin-left: 4rem;
+    width: 82%;
+    border: none !important;
+    border-bottom: 0.1rem solid black !important;
+}
+
+.innerCenterLeft #send {
+    padding: 1rem 5rem;
+    margin-top: 2rem;
+    background-color: rgb(29,91,144);
+}
+
+.innerCenterLeft #send:hover{
+    cursor: pointer;
+}
+
+.innerCenterRight{
+    text-align: left !important;
+}
+.innerCenterRight .innerInner{
+    margin: 2rem 2rem;
+}
+
+.innerCenterRight .one h2{
+    font-weight: lighter;
+    font-size: 3rem;
+}
+
+.innerCenterRight .one h2 span{
+    font-weight: bold;
+}
+
+.innerInner h2{
+    color: rgb(29,91,144);
+}
