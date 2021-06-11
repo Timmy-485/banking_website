@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/PA_icon.jpg" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/e_banking.css">
+    <title>Pearl Abyss Bank</title>
+</head>
+
+<body>
+    <!-- navigation -->
+    <nav>
+        <ul>
+            <li><a href="" class="logo">Logo</a></li>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="products.html">PRODUCTS & SERVICES</a></li>
+            <li><a href="e_banking.html">E-BANKING</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+            <li><a href=""><i class="material-icons">search</i></a> </li>
+        </ul>
+    </nav>
+
+    <div class="topImage"></div>
+
+    <!-- central region -->
+    <div class="centerContainer">
+        <div class="innerCenter innerCenterLeft">
+            <div class="phone">
+                <div class="creditCard">
+                    <img src="images/bdoCreditCard.jpg" alt="">
+                    <form action="" onsubmit="return false">
+                        <!-- <input type="number" name="" id="accountNumber" placeholder="Enter Account Number" min="0"> -->
+                        <input type="number" name="" id="depositAmount" placeholder="Enter Amount" required min="0">
+                        <input type="submit" value="Deposit" onclick="deposit()">
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="innerCenter innerCenterRight">
+            <div class="phone">
+                <div class="displayBalance">
+                    <p>Current balance: $<span id="balance">0</span></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <!-- footer -->
+    <footer>
+        <div class="innerFoot">
+            <div class="footerGrid">
+                <p>Products & Services</p>
+                <ul>
+                    <li>Retail Banking</li>
+                    <li>Corporate Banking</li>
+                    <li>Agric Finance</li>
+                    <li>SME Banking</li>
+                    <li>Treasury Management</li>
+                </ul>
+            </div>
+            <div class="footerGrid">
+                <p>About Us</p>
+                <ul>
+                    <li>Company Profile</li>
+                    <li>Our Values</li>
+                    <li>Management</li>
+                    <li>MD's Message</li>
+                    <li>Corporate Social Responsibility</li>
+                </ul>
+            </div>
+            <div class="footerGrid">
+                <p>Customer Services</p>
+                <ul>
+                    <li>Rates</li>
+                    <li>Downloads</li>
+                    <li>Contact Us</li>
+                    <li>ATM/Branch Locator</li>
+                    <li>Open Account</li>
+                </ul>
+            </div>
+            <div class="footerGrid">
+                <p>Contact Us</p>
+                <span>
+                    Address: <br>
+                    Accra Financial Centre, <br>
+                    3rd Ambassadorial Development Area, <br>
+                    Ridge-Accra, P.O. Box 4191, <br>
+                    Accra-Ghana <br>
+                    Phone: <br>
+                    0302 22 4043, 0302 210210, 020 203 0100 <br>
+                    Toll Free 0800 10034 <br>
+                    E-mail: <br>
+                    customercare@pearlabyssbank.com
+                </span>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="https://kit.fontawesome.com/123c704c20.js" crossorigin="anonymous"></script>
+    <script src="scripts/e_banking.js"></script>
+</body>
+
+</html>

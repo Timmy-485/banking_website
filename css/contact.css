@@ -27,7 +27,7 @@
 .innerCenterLeft #message {
     display: block;
     height: 15rem;
-    margin-left: 4rem;
+    margin-left: 5rem;
     width: 82%;
     border: none !important;
     border-bottom: 0.1rem solid black !important;
@@ -37,6 +37,7 @@
     padding: 1rem 5rem;
     margin-top: 2rem;
     background-color: rgb(29,91,144);
+    color: white;
 }
 
 .innerCenterLeft #send:hover{

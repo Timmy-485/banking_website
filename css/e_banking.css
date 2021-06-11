@@ -1,0 +1,100 @@
+.topImage {
+    background-image: url("../images/ebanking.jpg");
+    height: 45% !important;
+}
+
+.centerContainer {
+    grid-template-columns: 1fr 1fr;
+    margin: 0.5rem;
+    height: 40rem !important;
+    margin: 0 !important;
+    background-color: rgb(99, 102, 117);
+}
+
+.innerCenter {
+    border: none !important;
+}
+
+.innerCenterLeft, .innerCenterRight {
+    padding: 2rem !important;
+}
+
+.innerCenterLeft .phone {
+    width: 50% !important;
+    height: 100%;
+    margin: 0 auto;
+    box-sizing: border-box;
+    border-radius: 9px;
+    box-shadow: 1px 1px 5px black;
+    background-color: rgb(58, 65, 83);
+}
+
+.innerCenterRight .phone {
+    width: 50% !important;
+    height: 50%;
+    box-shadow: 1px 1px 5px black;
+    background-color: rgb(58, 65, 83);
+    border-radius: 9px;
+}
+
+.phone .creditCard {
+    width: 100%;
+    /* height: 30%; */
+}
+
+.phone .creditCard img {
+    width: 100%;
+    border-top-right-radius: 9px;
+    border-top-left-radius: 9px;
+}
+
+.phone form {
+    margin-top: 6rem;
+}
+
+.phone form input {
+    display: block;
+    margin: 1rem auto;
+    width: 70%;
+    height: 2rem;
+    border-radius: 7px;
+    border: none;
+    box-shadow: 1px 1px 3px black;
+    background-color: rgb(99, 102, 117);
+    color: white;
+}
+
+.phone .displayBalance{
+    box-sizing: border-box;
+    padding: 8rem 0;
+    color: white;
+    font-size: 2rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+::placeholder {
+    /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: white;
+    opacity: 1;
+}
+
+:-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    color: white;
+}
+
+::-ms-input-placeholder {
+    /* Microsoft Edge */
+    color: white;
+}
