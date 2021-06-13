@@ -31,7 +31,7 @@
 
 .innerCenterRight .phone {
     width: 50% !important;
-    height: 50%;
+    height: 45%;
     box-shadow: 1px 1px 5px black;
     background-color: rgb(58, 65, 83);
     border-radius: 9px;
@@ -46,6 +46,15 @@
     width: 100%;
     border-top-right-radius: 9px;
     border-top-left-radius: 9px;
+}
+
+.phone .creditCard #depositButton{
+    background-color: rgb(200,196,173);
+    color: black;
+}
+
+.phone .creditCard #depositButton:hover{
+    cursor: pointer;
 }
 
 .phone form {
@@ -66,7 +75,7 @@
 
 .phone .displayBalance{
     box-sizing: border-box;
-    padding: 8rem 0;
+    padding: 7rem 0;
     color: white;
     font-size: 2rem;
 }
@@ -85,6 +94,8 @@
 
 ::placeholder {
     /* Chrome, Firefox, Opera, Safari 10.1+ */
+    /* padding-left: 1rem; */
+    text-align: center;
     color: white;
     opacity: 1;
 }
